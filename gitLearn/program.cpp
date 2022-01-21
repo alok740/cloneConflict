@@ -4,6 +4,12 @@ int sum1=0;
 int product = 1;
 int sub=0;
 int xor=1;
+int neg=0;
+//Negation operation 
+void Neg(int a)
+{
+    neg=~a;
+}
 void XOR(int a,int b)
 {
 	xor=a^b;
