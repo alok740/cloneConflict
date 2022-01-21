@@ -6,6 +6,12 @@ int sub=0;
 void subtract(int a,int b)
 {
 	sub = a-b;
+int power = 1;
+ // This is power function 
+// power of a and b is a**b
+
+void powerFunction(int a, int b){
+	power = a**b;
 }
 
 void multiply(int a, int b){
