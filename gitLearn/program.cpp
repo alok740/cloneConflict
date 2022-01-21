@@ -3,6 +3,11 @@ using namespace std;
 int sum1=0;
 int product = 1;
 int sub=0;
+int xor=1;
+void XOR(int a,int b)
+{
+	xor=a^b;
+}
 void subtract(int a,int b)
 {
 	sub = a-b;
