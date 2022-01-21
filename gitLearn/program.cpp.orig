@@ -3,14 +3,17 @@ using namespace std;
 int sum1=0;
 int product = 1;
 int sub=0;
+<<<<<<< Updated upstream
 int xor=1;
 void XOR(int a,int b)
 {
 	xor=a^b;
+=======
 int and = 0;
 // function for and operation
 void and(int a, int b){
 	and = a & b;
+>>>>>>> Stashed changes
 }
 void subtract(int a,int b)
 {
