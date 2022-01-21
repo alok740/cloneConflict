@@ -36,6 +36,11 @@ void multiply(int a, int b){
 
 int div=0;
 
+int sub=0;
+void subtract(int a,int b)
+{
+	sub=a-b;
+}
 void sum(int a,int b)
 {
     sum1=a+b;
