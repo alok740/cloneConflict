@@ -2,6 +2,11 @@
 using namespace std;
 int sum1=0;
 int product = 1;
+int sub=0;
+void subtract(int a,int b)
+{
+	sub = a-b;
+}
 
 void multiply(int a, int b){
 	product = a*b;
