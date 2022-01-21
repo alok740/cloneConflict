@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 int sum1=0;
+int product = 1;
+
+void multiply(int a, int b){
+	product = a*b;
+}
+
 void sum(int a,int b)
 {
     sum1=a+b;
