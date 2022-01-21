@@ -8,6 +8,6 @@ void sum(int a,int b)
 int main() {
 	sum(2,4);
 	cout<<sum1<<" ";
-	//comment
+	//commented
 	return 0;
 }
